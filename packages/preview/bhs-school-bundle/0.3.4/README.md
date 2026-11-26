@@ -79,7 +79,7 @@ Both use the same named parameters and are configured through `#show: ...with(..
 - `subtitle` (content or `none`): Subtitle on the cover page
 - `team` (array or `none`): Team members with name and responsibility
 - `supervisors` (array or `none`): Supervising teachers
-- `responsible-default` (content): Default responsible person for the footer if not set per chapter in content.typ (only for thesis template)
+- `responsible-default` (content or `none`): Default responsible person for the footer if not set per chapter in content.typ (only for thesis template)
 - `vorwort-text` (content or `none`): German abstract (only thesis template)
 - `kurzfassung-text` (content or `none`): German abstract
 - `abstract-text` (content or `none`): English abstract (only thesis template)

@@ -288,7 +288,11 @@
       #grid(
         columns: (1fr, auto),
         column-gutter: 1em,
-        [Verantwortlich fur den Inhalt: #_current_responsible(responsible-default)],
+        if responsible-default != none {
+          [          
+            Verantwortlich fur den Inhalt: #_current_responsible(responsible-default)
+          ]
+        },
         [Seite #counter(page).display("1 / 1")],
       )
     ],
@@ -384,7 +388,11 @@
       #grid(
         columns: (1fr, auto),
         column-gutter: 1em,
-        [Verantwortlich fur den Inhalt: #_current_responsible(responsible-default)],
+        if responsible-default != none {
+          [
+            Verantwortlich fur den Inhalt: #_current_responsible(responsible-default)
+          ]
+        },
         [Seite #counter(page).display("1 / 1")],
       )
     ],
